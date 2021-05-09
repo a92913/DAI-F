@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/global.css" type="text/css" />
+    <link rel="stylesheet" href="../css/city.css" type="text/css" />
+
+    <title>Cidades</title>
+</head>
+
+<body>
+    <div class="header col-sm-12">
+        <div class="col-sm-2">
+            <a href="menu.html"><img id="back" src="../imagens/back.png" width=32 height=32></img>
+            </a>
+        </div>
+        <div class="col-sm-8">
+            <center>
+                <p class="title"> Escolhe o teu distrito </p>
+            </center>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+    <div class="main">
+        <center>
+
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="acores" value="Açores" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Açores</p>
+                </button>
+            </a>
+            </button>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="aveiro" value="Aveiro" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Aveiro</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="beja" value="Beja" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Beja</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="braga" value="Braga" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Braga</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="braganca" value="Bragança" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Bragança</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="castelo-branco" value="Castelo Branco" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Castelo Branco</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="coimbra" value="Coimbra" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Coimbra</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city " id="evora" value="Evora" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Evora</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="faro" value="Faro" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Faro</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="guarda" value="Guarda" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Guarda</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="leiria" value="Leiria" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Leiria</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="lisboa" value="Lisboa" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Lisboa</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="madeira" value="Madeira" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Madeira</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="portalegre" value="Portalegre" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Portalegre</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="porto" value="Porto" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Porto</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="santarem" value="Santarém" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Santarém</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="setubal" value="Setúbal" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Setúbal</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="viana-do-castelo" value="Viana do Castelo" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Viana do Castelo</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="vila-real" value="Vila Real" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Vila Real</p>
+                </button>
+            </a>
+            <a href="viewCity.html">
+                <button class="card card-body card-city" id="viseu" value="Viseu" onclick="city(this.value)">
+                    <p class="districts col-sm-12">Viseu</p>
+                </button>
+            </a>
+        </center>
+    </div>
+
+    <div id="ajuste"></div>
+
+    <div class="footer">
+        <center>
+            <ul>
+                <li>
+                    <a href="menu.html"><img src="../imagens/home.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="activities-scheduled.html"><img src="../imagens/list.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html"><img src="../imagens/sino.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html"><img src="../imagens/user.png" width=52 height=52></img>
+                    </a>
+                </li>
+            </ul>
+        </center>
+    </div>
+
+    <script type="text/javascript" src="../js/city.js"></script>
+
+</body>
+
+</html>

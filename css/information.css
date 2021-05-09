@@ -1,0 +1,169 @@
+.areas {
+    font-style: inherit;
+    font-size: 20px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80;
+    font-weight: bold;
+    background-color: #F5F5F5;
+    margin-top: 30px;
+    padding: 1.30rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contactos {
+    font-style: inherit;
+    font-size: 20px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80;
+    font-weight: bold;
+    background-color: #F5F5F5;
+    margin-top: 40px;
+    padding: 1.30rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contactos2 {
+    display: flex;
+}
+
+.corrossel {
+    margin-bottom: 5%;
+    width: 200px;
+    height: 150px;
+}
+
+
+.carousel-indicators {
+    margin-top: 100%;
+    background-color: transparent;
+    display: none;
+}
+
+.carousel {
+    position: inherit;
+}
+
+.photo {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.rs {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #41BBC9;
+}
+
+.rs1 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #F7BE00;
+}
+
+.rs2 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #E5004E;
+}
+
+.rs3 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #233A80;
+}
+
+.text-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80 !important;
+    margin-top: 10%;
+    margin-left: -15%;
+}
+
+.text-rs {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80 !important;
+    margin-top: 10px;
+}
+
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#headingOne {
+    background-color: #41BBC9;
+
+}
+
+#headingTwo {
+    background-color: #F7BE00;
+}
+
+
+#headingThree {
+    background-color: #E5004E;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0;
+    text-decoration: none;
+}
+
+.card-body {
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#email{
+    font-style: italic;
+    font-size: 14px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80 !important;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+#style1{
+    border-color: #41BBC9;
+    border-width: 2px;
+}
+
+#style2{
+    border-color:#F7BE00;
+    border-width: 2px;
+}
+
+#style3{
+    border-color: #E5004E;
+    border-width: 2px;
+}
+
+#accordion{
+    margin-top:20px;
+}
+

@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+html {
+    background-color: white;
+}
+
+body {
+    font-family: Roboto;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.col-sm-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+}
+
+.col-sm-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+    text-align: center;
+}
+
+.col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-sm-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+
+.col-sm-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-sm-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+}
+
+.col-sm-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+}
+
+.col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-sm-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+}
+
+.col-sm-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+}
+
+.col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 0 20px 0;
+    z-index: 2;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    background-color: #E7E7E7;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+#back {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.title {
+    font-style: inherit;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    padding: 3px;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: flex-end;
+    margin-left: 4%;
+}
+
+.art,
+.Arte {
+    background-color: #41BBC9;
+}
+
+.sport,
+.Desporto {
+    background-color: #F7BE00;
+}
+
+.music,
+.Musica {
+    background-color: #E5004E;
+}
+
+.game,
+.Jogos {
+    background-color: #FFAE64;
+}
+
+.all {
+    background-color: #41BBC9;
+}
+
+.likes {
+    background-color: #F7BE00;
+}
+
+.particip {
+    background-color: #E5004E;
+}
+
+.scheduled {
+    background-color: #FFAE64;
+}
+
+.Arte1 {
+    background-color: #8DD6DF;
+}
+
+.Jogos1 {
+    background-color: #EFC39A;
+}
+
+.Desporto1 {
+    background-color: #F5DC88;
+}
+
+.Musica1 {
+    background-color: #e17f7f;
+}
+
+#divSearch {
+    border-radius: 50px;
+    padding: 2%;
+    background: rgba(196, 196, 196, 0.4);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#txtSearch {
+    background-color: transparent;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+}
+
+#imgSearch {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: -1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="date"]:hover,
+input[type="number"] :hover,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+    text-decoration: none;
+    box-shadow: none;
+    border-color: transparent;
+    outline: none;
+}
+
+
+/* Padrões das ferramentas */
+
+button {
+    width: 85%;
+    height: 45px;
+    border-radius: 55px;
+    background-color: #233A80;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/* Estilo dos inputs*/
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"] {
+    padding: 10px;
+    width: 85%;
+    height: 45px;
+    background-color: #F3F7FC;
+    border-radius: 55px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#recoverPwd,
+#register {
+    color: #233A80;
+}
+
+input[type="radio"] {
+    margin-top: 3px;
+    width: 7%;
+    height: 16px;
+    margin-left: 24px;
+}
+
+#ajuste {
+    padding-top: 125px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+    position: relative !important;
+}
+
+.swal2-icon.swal2-question {
+    border-color: #233A80 !important;
+    color: #233A80 !important;
+}
+
+.view {
+    display: flex;
+    margin-left: 85%;
+    margin-top: -29px;
+    color: #233A80;
+}
+
+.oc1 {
+    font-weight: normal;
+}
+
+#sad {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title-city1 {
+    font-weight: Bold;
+    font-size: 14px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.card-header1 {
+    padding: 2%;
+}
+
+::-ms-reveal {
+    display: none;
+}

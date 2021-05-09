@@ -1,0 +1,97 @@
+.card-city {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    padding: 1.25rem;
+}
+
+#acores {
+    background-image: url("../imagens/açores.jpeg");
+}
+
+#aveiro {
+    background-image: url("../imagens/aveiro.jpeg");
+}
+
+#beja {
+    background-image: url("../imagens/beja.jpeg");
+}
+
+#braga {
+    background-image: url("../imagens/braga.jpeg");
+}
+
+#braganca {
+    background-image: url("../imagens/braganca.jpeg");
+}
+
+#castelo-branco {
+    background-image: url("../imagens/castelo branco.jpeg");
+}
+
+#coimbra {
+    background-image: url("../imagens/coimbra.jpeg");
+}
+
+#evora {
+    background-image: url("../imagens/evora.jpeg");
+}
+
+#faro {
+    background-image: url("../imagens/faro.jpeg");
+}
+
+#guarda {
+    background-image: url("../imagens/Guarda.jpeg");
+}
+
+#leiria {
+    background-image: url("../imagens/Leiria.jpeg");
+}
+
+#lisboa {
+    background-image: url("../imagens/lisboa.jpg");
+}
+
+#madeira {
+    background-image: url("../imagens/madeira.jpeg");
+}
+
+#portalegre {
+    background-image: url("../imagens/portalegre.jpeg");
+}
+
+#porto {
+    background-image: url("../imagens/porto.jpeg");
+}
+
+#santarem {
+    background-image: url("../imagens/santarem.jpeg");
+}
+
+#setubal {
+    background-image: url("../imagens/setubal.jpeg");
+}
+
+#viana-do-castelo {
+    background-image: url("../imagens/viana do castelo.jpeg");
+}
+
+#vila-real {
+    background-image: url("../imagens/vila-real.jpeg");
+}
+
+#viseu {
+    background-image: url("../imagens/viseu.jpeg");
+}
+
+.districts {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: revert;
+}
+

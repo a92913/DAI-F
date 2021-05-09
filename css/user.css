@@ -1,0 +1,330 @@
+/* Janela Login */
+
+#login {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+#submitInput {
+    margin-bottom: 3%;
+    margin-top: 60px;
+}
+
+.logoImg {
+    max-width: 146.37px;
+    max-height: 143.01px;
+    margin-top: 2%;
+}
+
+
+/* Janela intro */
+
+.logoImg2 {
+    max-width: 160.37px;
+    max-height: 219.01px;
+    margin-top: 25%;
+}
+
+#login2 {
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+#citzania {
+    margin-top: 2%;
+}
+
+.rodape {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.rodape img {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+/* Janela register */
+
+#register {
+    font-size: 18px;
+}
+
+#welcome {
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+h4 {
+    font-size: 14px;
+    color: #233A80;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+#submitRegister {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.card1 {
+    border-radius: 20px;
+    margin-top: 4px;
+    width: 85%;
+    background: #F3F7FC;
+    border: none;
+}
+
+#name,
+#sex,
+#date2 {
+    font-size: 12px;
+}
+
+.delete {
+    margin-right: 14px;
+    margin-top: 5px;
+    color: #233A80;
+}
+
+#mm {
+    display: flex;
+    justify-content: space-between;
+}
+
+#add {
+    margin-right: 11%;
+    color: #233A80;
+    margin-top: 6%;
+}
+
+#rodape-index,
+#rodape-login {
+    position: fixed;
+}
+
+
+/* Janela Perfil */
+
+#profileImage {
+    max-width: 117.37px;
+    max-height: 120.01px;
+    margin-top: 3%;
+}
+
+#profileName {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    color: #7181B1;
+    font-weight: bold;
+}
+
+#edit {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: -30px;
+    color: #233A80;
+}
+
+.card-body1 {
+    display: flex;
+    justify-content: space-between;
+    color: #7181B1;
+}
+
+#addKid,
+#confaddKid {
+    margin-top: 30px;
+}
+
+.more-child {
+    margin-top: 20px;
+}
+
+#image-activity {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#card-activity {
+    border: none;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.swal2-actions {
+    flex-wrap: inherit !important;
+}
+
+.swal2-styled.swal2-confirm {
+    border-radius: 55px !important;
+    background-color: #233A80 !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+.swal2-styled.swal2-cancel {
+    border-radius: 55px !important;
+    background-color: #adb5bd !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+#password.swal2-input {
+    margin-top: 5px !important;
+    margin-bottom: 14px !important;
+}
+
+.swal2-input {
+    font-size: 16px !important;
+}
+
+.swal2-title {
+    text-transform: uppercase !important;
+    font-size: 21px !important;
+}
+
+.swal2-styled:focus {
+    outline: none;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.card-text2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-left: 5%;
+    width: 100%;
+    display: inherit;
+    text-align: initial;
+}
+
+.card-text3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-left: 10%;
+    width: 100%;
+    display: inherit;
+    margin-bottom: 1.5%;
+    text-align: initial;
+}
+
+.activities {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.62%;
+    letter-spacing: 0.03em;
+    color: #233A80;
+    text-transform: uppercase;
+}
+
+#sexo {
+    padding: 10px;
+}
+
+
+/* Hamburguer Menu */
+
+div.dropdown-menu.show {
+    border-radius: 10px;
+    background-color: #233a80;
+    margin-left: -182px;
+    position: absolute !important;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.fa-sign-out-alt:before,
+.fa-user-times:before {
+    margin-right: 10px;
+}
+
+.fa-bars:before {
+    color: #233A80;
+}
+
+#email,
+#name,
+#name1 {
+    font-size: 16px;
+}
+
+select {
+    margin-right: 35%;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #dcebfd;
+    border-color: #dcebfd;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+select:focus {
+    outline-color: #dcebfd;
+}
+
+.name {
+    margin-top: 15%;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.date {
+    margin-top: 15%;
+    text-transform: capitalize;
+}
+
+#ps {
+    margin-top: 3px;
+}
+
+#password {
+    margin-bottom: 3px;
+}
+
+#title_pass {
+    margin-bottom: 21px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+}
+
+.view3 {
+    display: flex;
+    margin-left: 81%;
+    margin-top: -43px;
+    color: #233A80;
+    position: relative;
+}
+
+#title_h4 {
+    margin-top: 15%;
+}

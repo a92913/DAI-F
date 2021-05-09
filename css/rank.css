@@ -1,0 +1,151 @@
+#top-ranking {
+    display: flex;
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-sm-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#first-place,
+#second-place,
+#third-place {
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    text-transform: capitalize;
+}
+
+#first-place {
+    height: 86%;
+    margin-bottom: 4%;
+}
+
+#second-place {
+    height: 77%;
+    margin-bottom: 4%;
+}
+
+#third-place {
+    height: 62%;
+    margin-bottom: 4%;
+}
+
+#header-first {
+    background-color: #41BBC9;
+}
+
+#second-place {
+    margin-top: 40px;
+}
+
+#header-second {
+    background-color: #F7BE00;
+}
+
+#third-place {
+    margin-top: 80px;
+}
+
+#header-third {
+    background-color: #E5004E;
+}
+
+#body-first {
+    height: 115px;
+    background-color: #94E0EA;
+}
+
+#body-second {
+    height: 115px;
+    background-color: #FFE19F;
+}
+
+#body-third {
+    height: 80px;
+    background-color: #FF4E7D;
+}
+
+#myranking {
+    width: 90%;
+    display: flex !important;
+    background-color: #4762B2;
+}
+
+#my-rank {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+#classification {
+    color: white;
+}
+
+#my-points {
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+span,
+.card-body {
+    display: block;
+}
+
+.card {
+    border-color: white;
+}
+
+#rest {
+    background-color: #FF7474;
+    margin-top: auto;
+    color: white;
+}
+
+#points {
+    margin-top: -68px;
+    color: white;
+}
+
+.header {
+    display: flex;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.class {
+    font-weight: bold;
+}
+
+#rank_1_points {
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+#rank_2_points {
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+#rank_3_points {
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+.pts {
+    font-weight: 500;
+    width: 100%;
+}

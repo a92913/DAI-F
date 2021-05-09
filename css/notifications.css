@@ -1,0 +1,100 @@
+.days {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80;
+    margin-left: 5%;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.card-body {
+    justify-content: flex-start;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.card-notification {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-block-end: 0;
+    margin-left: 3%;
+    padding-top: 3%;
+}
+
+.card-notification2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-block-end: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;
+    text-transform: inherit;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-block-end: 0;
+    margin-left: 3%;
+    text-transform: capitalize;
+}
+
+#no_noti {
+    width: 109%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#no_noti_text {
+    padding-top: 11%;
+    font-weight: 420;
+    color: white;
+}
+
+.card_noti {
+    padding: 0;
+    background-color: #E5004E;
+}
+
+.date_noti {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.date_noti1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 3%;
+    margin-left: 19px;
+}
+
+.disc_activi2 {
+    font-weight: normal !important;
+    font-size: 15px !important;
+    margin-top: -3%;
+    margin-left: 0%;
+}
+
+.main {
+    overflow: hidden;
+}

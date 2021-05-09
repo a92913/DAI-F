@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/e195162fd2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/user.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global.css" type="text/css" />
+    <link rel="stylesheet" href="./css/formValidator.css" type="text/css" />
+
+    <title>Login</title>
+</head>
+
+<body id="body-index">
+    <div class="header col-sm-12">
+        <div class="col-sm-2">
+
+            <a href="index.html"><img id="back" src="imagens/back.png" width=32 height=32></img>
+            </a>
+        </div>
+        <div class="col-sm-8">
+            <center>
+                <p class="title"></p>
+            </center>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+    <center>
+        <img src="./imagens/logo.png" class="logoImg"></img>
+        <p id="login" class="title">LOGIN</p>
+        <form name="demo-form-1" id="formLogin" action="">
+            <div class="field">
+                <div class="input-wrapper">
+                    <h4>EMAIL</h4>
+                    <input type="text" name="email" id="mailInput" data-rule="required|email" autocomplete="off">
+                </div>
+            </div>
+            <div class="field">
+                <div class="input-wrapper">
+                    <h4>PASSWORD</h4>
+                    <input type="password" name="password" id="passInput" data-rule="required|minlength-6" autocomplete="off">
+                    <i class="far fa-eye view"></i>
+                    </input>
+                </div>
+            </div>
+            <div class="field">
+                <button id="submitInput" class="button" value="Login" type="submit">LOGIN</button>
+            </div>
+        </form>
+        <a id="recoverPwd" href="#">
+            <p>Esqueceu-se da sua palavra-passe?</p>
+        </a>
+    </center>
+
+    <div class="rodape">
+        <img src="./imagens/kids.png" id="rodape-login" />
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/formValidator.js"></script>
+    <script src="validator/js-form-validator.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

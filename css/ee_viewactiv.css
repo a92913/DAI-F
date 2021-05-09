@@ -1,0 +1,22 @@
+.inscribe {
+    width: min-content;
+    border: none;
+    padding: initial;
+    background-color: transparent;
+    color: white;
+    margin-left: -20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.swal2-styled.swal2-confirm {
+    border-radius: 55px !important;
+    background-color: #233A80 !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+.swal2-styled:focus {
+    outline: none;
+    box-shadow: 0 0 0 0 !important;
+}

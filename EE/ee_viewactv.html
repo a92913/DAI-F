@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/global.css" type="text/css" />
+    <link rel="stylesheet" href="../css/viewActivity.css" type="text/css" />
+    <link rel="stylesheet" href="../css/ee_viewactiv.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/e195162fd2.js" crossorigin="anonymous"></script>
+    <title>Visualizar Atividades</title>
+</head>
+
+<body>
+    <div class="header col-sm-12">
+        <div class="col-sm-1">
+
+            <a href="activities.html"><img id="back" src="../imagens/back.png" width=32 height=32></img>
+            </a>
+        </div>
+        <div class="col-sm-10">
+            <center>
+                <p class="title"> Atividades </p>
+            </center>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+
+    <div class="main">
+        <div id="divSearch">
+            <img src="../imagens/search.png" id="imgSearch" alt="Buscar" width=28 height=28></input>
+            <input type="text" id="txtSearch" placeholder="Procura atividades"></input>
+        </div>
+
+        <div class="card">
+            <div class="card-body" id="act-body">
+                <p class="card-text" id="act-text"></p>
+                <img class="text-right" src="../imagens/art.png" width=109 height=109 id="act-img"></img>
+            </div>
+        </div>
+        <div class="parent" id="parent"></div>
+    </div>
+
+    <div id="ajuste"></div>
+    <div class="footer">
+        <center>
+            <ul>
+                <li>
+                    <a href="ee_menu.html"><img src="../imagens/home.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="activities-sheduled.html"><img src="../imagens/list.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html"><img src="../imagens/sino.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html"><img src="../imagens/user.png" width=52 height=52></img>
+                    </a>
+                </li>
+            </ul>
+        </center>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="../js/viewActivityEE.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>

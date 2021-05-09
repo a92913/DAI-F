@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/user.css" type="text/css" />
+    <link rel="stylesheet" href="../css/global.css" type="text/css" />
+    <link rel="stylesheet" href="../css/formValidator.css" type="text/css" />
+
+    <title>Perfil</title>
+</head>
+
+<body>
+
+    <div class="header col-sm-12">
+        <div class="col-sm-2">
+            <a href="ee_menu.html"><img id="back" src="../imagens/back.png" width=32 height=32></img>
+            </a>
+        </div>
+        <div class="col-sm-8">
+            <center>
+                <p class="title"> Perfil </p>
+            </center>
+        </div>
+        <div class="col-sm-2">
+            <div class="dropdown show">
+                <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars fa-2x"></i></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#" id="logout"><i class="fas fa-sign-out-alt"></i>TERMINAR SESSÃO</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#" id="shut_down"><i class="fas fa-user-times"></i>ENCERRAR CONTA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <center>
+            <img src="../imagens/user.png" id="profileImage"></img>
+            <p id="profileName"></p>
+            <form name="demo-form-1" id="formKid">
+                <div class="field">
+                    <div class="input-wrapper">
+                        <h4>EMAIL</h4>
+                        <input id="email" name="email" type="text" disabled>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="">
+                        <h4>PASSWORD</h4>
+                        <input type="password" name="password" placeholder="**********" disabled>
+                        <i class="fas fa-pencil-alt" id="edit"></i>
+                    </div>
+                </div>
+                <h4>EDUCANDOS</h4>
+                <div class="field parent">
+                </div>
+                <div class="more-child"></div>
+                <button id="addKid"> + ADICIONAR CRIANÇA</button>
+            </form>
+        </center>
+    </div>
+    <div id="ajuste"></div>
+    <div class="footer">
+        <center>
+            <ul>
+                <li>
+                    <a href="ee_menu.html"><img src="../imagens/home.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="activities-sheduled.html"><img src="../imagens/list.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html"><img src="../imagens/sino.png" width=52 height=52></img>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="../imagens/user.png" width=52 height=52></img>
+                    </a>
+                </li>
+            </ul>
+        </center>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/profileEE.js"></script>
+    <script src="../js/formValidator.js"></script>
+    <script src="../validator/js-form-validator.js"></script>
+
+</body>
+
+</html>

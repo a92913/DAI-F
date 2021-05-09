@@ -1,0 +1,51 @@
+.card-ee {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 50%;
+    max-width: 300px;
+    padding: 1.25rem;
+    border-radius: 5%;
+    background-color:#31bacf;
+    background-image: url("../imagens/EE.png");
+}
+
+.card-child-Masculino {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 50%;
+    max-width: 300px;
+    padding: 1.25rem;
+    border-radius: 5%;
+    background-color:#ffcd60;
+    background-image: url("../imagens/menino.png");
+}
+
+.card-child-Feminino {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 50%;
+    max-width: 300px;
+    padding: 1.25rem;
+    border-radius: 5%;
+    background-color:#ffcd60;
+    background-image: url("../imagens/menina.png");
+}
+
+#name_ee{
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.name_child{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,0 +1,98 @@
+.card-activities {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140.62%;
+    margin-left: 3%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.card-header {
+    padding: inherit;
+}
+
+.col-sm-3 {
+    display: grid;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.card-body {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.name {
+    margin-left: 5%;
+    margin-top:10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: white;
+    text-transform: capitalize;
+}
+
+#no_activi{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#no_activi_text{
+    padding-top: 14%;
+    font-weight: 420;
+}
+
+.text-1{
+    padding-top: 9%;
+}
+
+.card-notification{
+    padding-top: 4%;
+}
+
+.anular_inscricao{
+    border-radius:0 px;
+    background-color:transparent;
+    color:#233A80;
+    float:right;
+    width: 100%;
+    font-weight: 500;
+}
+
+.date_sheluded{
+    margin-left: -46%;
+    margin-top:10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color:white;
+    text-transform: capitalize;
+}
+
+.name_activity{
+    font-style: normal !important;
+}
+
+.card{
+    border:0px;
+}
+.swal2-styled.swal2-confirm{
+    border-radius: 55px !important;
+    background-color: #233A80;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    border-color: #233A80 !important;
+    box-shadow: 0 0 0 0 !important;
+    text-transform: uppercase;
+}

@@ -1,0 +1,57 @@
+textarea[name=box_sugestions] {
+    resize: none;
+}
+
+#box_notes:focus {
+    outline: none;
+}
+
+#box_notes {
+    background-color: rgba(196, 196, 196, 0.15);
+    opacity: 1;
+    border: none;
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding:20px;
+}
+
+#suge_audio {
+    font-size: 14px;
+    line-height: 140.62%;
+    letter-spacing: 0.1em;
+    color: #233A80;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#suges{
+    text-align:left;
+    margin-left:10%;
+    font-weight: 450;
+    margin-top: 5%;
+}
+
+.typeSu{
+    justify-content:space-around;
+    display: flex;
+    margin-right: 7%;
+}
+
+div.typeSu div.error {
+    margin-top: 28px !important;
+}
+
+.swal2-styled.swal2-confirm{
+    border-radius: 55px !important;
+    background-color: #233A80 !important;
+    border-color: #233A80 !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+.swal2-styled:focus {
+    outline: none;
+    box-shadow: 0 0 0 0 !important;
+}

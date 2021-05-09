@@ -1,0 +1,103 @@
+#image-activity {
+    width: 100%;
+    border-radius: 5px;
+    max-height: 200px;
+}
+
+#card-activity {
+    border: none;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.card-body {
+    border-radius: 0 0 5px 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* Rating Star Widgets Style */
+
+.rating-stars ul {
+    list-style-type: none;
+    padding: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.rating-stars ul>li.star {
+    display: inline-block;
+}
+
+.rating-stars ul>li.star>i.fa {
+    width: 100%;
+    font-size: 2.5em;
+    /* Change the size of the stars */
+    color: #ccc;
+    /* Color on idle state */
+}
+
+
+/* Hover state of the stars */
+
+.rating-stars ul>li.star.hover>i.fa {
+    color: #FFCC36;
+}
+
+
+/* Selected state of the stars */
+
+.rating-stars ul>li.star.selected>i.fa {
+    color: #FF912C;
+}
+
+.rating-widget {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#name_act {
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+#time_act {
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+.oc2 {
+    font-weight: normal;
+}
+
+#no_avaliar {
+    width: 109%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#no_avaliar_text {
+    padding-top: 11%;
+    font-weight: 420;
+    color: white;
+}
+
+.card_avaliar {
+    background-color: #E5004E;
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
+}

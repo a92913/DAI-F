@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/e195162fd2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/user.css" type="text/css" />
+    <link rel="stylesheet" href="./css/global.css" type="text/css" />
+    <link rel="stylesheet" href="./css/formValidator.css" type="text/css" />
+
+    <title>Registo</title>
+</head>
+
+<body>
+    <div class="header col-sm-12">
+        <div class="col-sm-2">
+
+            <a href="index.html"><img id="back" src="imagens/back.png" width=32 height=32></img>
+            </a>
+        </div>
+        <div class="col-sm-8">
+            <center>
+                <p class="title"></p>
+            </center>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <center>
+        <img src="./imagens/logo.png" class="logoImg"></img>
+        <p id="welcome" class="title">Bem Vindo!</p>
+        <p id="register" class="title">regista-te</p>
+        <form name="demo-form-2" id="formNewRegister">
+            <div class="field">
+                <div class="input-wrapper">
+                    <h4>Nome</h4>
+                    <input id="name1" name="name" type="text" data-rule="required|name" autocomplete="off">
+                </div>
+            </div>
+            <div class="field">
+                <div class="input-wrapper">
+                    <h4>Email</h4>
+                    <input id="email" name="email" type="text" data-rule="required|email" autocomplete="off">
+                </div>
+            </div>
+            <div class="field">
+                <div class="input-wrapper">
+                    <h4>Data De Nascimento</h4>
+                    <input id="birth" type="date" name="date" data-rule="required|date" autocomplete="off">
+                </div>
+            </div>
+            <div class="field">
+                <div class="input-wrapper">
+                    <h4>Password</h4>
+                    <input id="ps" type="password" name="password" data-rule="required|password|minlength-6" autocomplete="off"><i class="far fa-eye view" id="view1"></i>
+                </div>
+            </div>
+            <div class="field">
+                <div class="input-wrapper">
+                    <h4>Confirmar Password</h4>
+                    <input id="confps" type="password" name="rep_pwd" data-rule="required|password|minlength-6" autocomplete="off">
+                    <i class="far fa-eye view" id="view2"></i>
+                </div>
+            </div>
+            <div class="field1">
+                <div id="mm">
+                    <h4>Educando </h4>
+                    <i class="fas fa-plus-circle fa-1x" id="add"></i>
+                </div>
+                <div class="more">
+                    <div class="card1">
+                        <div class="card-body" name="teste">
+                            <div class="input-wrapper">
+                                <input id="name" name="nameKid" type="text" placeholder="Nome do Educando" data-rule="required|lastname" autocomplete="off" class="nameKid">
+                                <input id="date2" type="date" name="date2" data-rule="required|date" class="date2">
+                                <div id="sexo">
+                                    <select class="combo-box sex" name="sex" data-rule="required">
+                                        <option value="" disabled selected hidden>Selecione o sexo</option>
+                                        <option id="mas" value="Masculino">Masculino</option>
+                                        <option id="fem" value="Feminino">Feminino</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <button id="submitRegister" class="button" value="register" type="submit">REGISTAR</button>
+            </div>
+        </form>
+    </center>
+
+    <div class="rodape">
+        <img src="./imagens/kids.png" />
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/register.js"></script>
+    <script src="./js/formValidator.js"></script>
+    <script src="validator/js-form-validator.js"></script>
+
+</body>
+
+</html>
